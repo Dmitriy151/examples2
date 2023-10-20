@@ -32,10 +32,10 @@
 // olga.calculateAverage();
  
 
-let user={
-  name:'Ivan',
-  birthYear:(year){
-    const currentYear=new Date().getFullYear();
-    this.age=currentYear-year;
-  }
-}
+// let user={
+//   name:'Ivan',
+//   set birthYear(year){
+//     const currentYear=new Date().getFullYear();
+//     this.age=currentYear-year;
+//   }
+// }
