@@ -5,14 +5,14 @@ class Human{
         
     this.name=name; 
   }
-};
+}
 
 
-class Man{
+class Man extends Human{
   constructor(name){
-        
+    super (name);    
     this.type='мужской пол';
   }
 };
 
-let user=new Human('Николай Петрович');
+let user=new Man('Николай Петрович');
