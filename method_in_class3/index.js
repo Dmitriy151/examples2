@@ -16,3 +16,24 @@ class Man extends Human{
 };
 
 let user=new Man('Николай Петрович');
+ 
+
+// static
+
+// class Text{isText(str){return typeof str==='string';}}
+           
+
+// class Text{isText(str){return typeof str==='string';}}
+
+// new Text().isText('adsg')
+
+// let text=new Text()
+
+
+// text.isText('sadfgjh');
+
+// class Text{static isText(str){return typeof str==='string';}}
+
+// text.isText('sadfgjh');
+
+// class Text{static isText(str){console.log(this); return typeof str==='string';}}
