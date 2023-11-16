@@ -37,3 +37,28 @@ let user=new Man('Николай Петрович');
 // text.isText('sadfgjh');
 
 // class Text{static isText(str){console.log(this); return typeof str==='string';}}
+
+
+
+// function divider(a,b) {
+//   if (a===0||b===0) {
+//       throw new Error('невалидное значение');
+//   } return a/b;
+// }
+
+// function safelyDivider(a,b) {
+//   try {
+//   console.log('внутри блоока try');divider(1,0);
+// } catch (error) {
+//   console.log(error)
+// }
+// }
+
+
+// function safelyDivider(a,b) {
+//   try {
+//   console.log('внутри блоока try');return divider(a,b);
+// } catch (error) {
+//   console.log(error); console.log('перехватили ошибку');
+// } finally{console.log('внутри блока finally')}
+// }
