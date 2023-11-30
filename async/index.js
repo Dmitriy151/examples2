@@ -34,5 +34,5 @@ function processFinish(){
 
 xhr.onload=processFinish;
 
-xhr.open("GET","https://www.cbr-xml-daily.ru/dayily_json.js");
-xhr.send();
+xhr.open("GET","https://www.cbr-xml-daily.ru/daily_json.js"); 
+xhr.send();    
